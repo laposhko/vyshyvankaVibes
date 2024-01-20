@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vyshyvanka Vibes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/modern-normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/basic.css" />
+        <link rel="stylesheet" href="css/header.css" />
+                <link rel="stylesheet" href="css/hero.css" />
+
+
   </head>
   <body>
     <header class="header">
@@ -82,18 +89,25 @@
     </header>
     <main>
       <section class="hero">
-        <div class="container">
-          <img src="" alt="girl in vyshyvanka" />
+        <div class="container hero-block">
+          <img class="hero-img" src="./images/hero-girl.png" alt="girl in vyshyvanka" />
+          <div class="hero-text">
           <h1 class="hero-title">
             Reviving the traditional
             <span class="hero-title-accent">Ukrainian</span> artistry in every
             stitch.
           </h1>
           <div class="hero-note">
-            <img src="" alt="" />
+            <img class="hero-note-img" src="./images/star.svg" alt="star" />
             <p class="hero-description">all embroidery is made by hand</p>
           </div>
-          <a href="" class="hero-button">order</a>
+          <a href="" class="hero-button link">order
+            <img class="hero-button-icon" src="./images/arrow.svg" alt="">
+            <svg  width="26px" height="10px">
+              <use href="./images/arrow.svg"></use>
+            </svg>
+          </a>
+          </div>
         </div>
       </section>
       <section class="about"><div class="container"></div></section>
