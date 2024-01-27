@@ -1,7 +1,9 @@
 .collection {
 }
 .collection-block {
-  padding-top: 80px;
+  background: no-repeat url(../images/collection-background.png);
+  background-position: 0 280px;
+  padding-top: 18px;
 }
 .collection-title {
   font-size: 32px;
@@ -34,6 +36,13 @@
 @media screen and (min-width: 768px) {
   .collection-product {
     flex-basis: calc(100% / 2 - 20px);
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .collection-product {
+    flex-basis: calc(100% / 3 - 20px);
+    /* margin-right: 0; */
     margin-right: 20px;
   }
 }

@@ -38,7 +38,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.accent {
+  color: var(--accent-color);
+}
 .container {
   width: 100%;
   padding-left: 20px;

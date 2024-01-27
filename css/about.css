@@ -1,10 +1,11 @@
 .about {
-  background: url(../images/background.png);
 }
-.container {
-}
+
 .about-block {
+  background: no-repeat right bottom url(../images/background.png);
+
   padding-top: 80px;
+  padding-bottom: 62px;
 }
 @media screen and (min-width: 768px) {
   .about-block {

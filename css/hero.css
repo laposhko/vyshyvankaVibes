@@ -71,9 +71,7 @@
     margin-right: 115px;
   }
 }
-.hero-title-accent {
-  color: var(--accent-color);
-}
+
 .hero-note {
   display: none;
 }
